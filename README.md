@@ -169,6 +169,23 @@ $ echo -n 'beep' | lpad --len 8
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/string/pad`][@stdlib/string/pad]: pad a string.
+-   [`@stdlib/string/right-pad`][@stdlib/string/right-pad]: right pad a string.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -225,6 +242,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-left-pad/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+<!-- <related-links> -->
+
+[@stdlib/string/pad]: https://github.com/stdlib-js/string-pad
+
+[@stdlib/string/right-pad]: https://github.com/stdlib-js/string-right-pad
+
+<!-- </related-links> -->
 
 </section>
 

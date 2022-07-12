@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-left-pad",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Left pad a string.",
   "license": "Apache-2.0",
   "author": {

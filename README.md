@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@esm/index.mjs';
+import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@v0.1.1-esm/index.mjs';
 ```
 
 #### lpad( str, len\[, pad] )
@@ -122,7 +122,7 @@ str = lpad( 'boop', 12, 'beep' );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@esm/index.mjs';
+import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@v0.1.1-esm/index.mjs';
 
 var str = 'beep';
 var i;

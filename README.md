@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-left-pad/tags). For example,
+
+```javascript
 import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@v0.2.1-esm/index.mjs';
 ```
 
@@ -122,7 +127,7 @@ str = lpad( 'boop', 12, 'beep' );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@v0.2.1-esm/index.mjs';
+import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@esm/index.mjs';
 
 var str = 'beep';
 var i;

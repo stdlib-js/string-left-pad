@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-left-pad/tags). For example,
+
+```javascript
 import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@v0.2.3-deno/mod.js';
 ```
 
@@ -117,7 +122,7 @@ str = lpad( 'boop', 12, 'beep' );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@v0.2.3-deno/mod.js';
+import lpad from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-pad@deno/mod.js';
 
 var str = 'beep';
 var i;
